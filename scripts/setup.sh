@@ -15,11 +15,11 @@ if ! [[ -d ~/.vim/bundle/vundle ]]; then
 fi
 
 if ! [[ -d ~/.vim/bundle/vim-matschaffer ]]; then
-  git clone ${PREFIX}matschaffer/vim-matschaffer.git ~/.vim/bundle/vim-matschaffer
+  git clone ${PREFIX}nicholaides/.vim.git ~/.vim/bundle/vim-personal
 fi
 
 test -f ~/.vimrc && mv ~/.vimrc ~/.vimrc.bak
 
-ln -s ~/.vim/bundle/vim-matschaffer/vimrc ~/.vimrc
+ln -s ~/.vim/bundle/vim-personal/vimrc ~/.vimrc
 
 vi +BundleInstall +qall
