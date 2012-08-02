@@ -43,16 +43,7 @@ Bundle 'kana/vim-textobj-user'
 Bundle 'scrooloose/nerdtree'
 Bundle 'hallettj/jslint.vim'
 Bundle 'Lokaltog/vim-powerline'
-
-" Colors
-Bundle 'tpope/vim-vividchalk'
-Bundle 'scottymoon/vim-twilight'
-Bundle 'ootoovak/vim-tomorrow-night'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'herald.vim'
-Bundle 'moria'
-Bundle '29decibel/codeschool-vim-theme'
-
+Bundle 'chrisbra/NrrwRgn'
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
@@ -64,6 +55,20 @@ Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'matschaffer/netrw-v142'
 Bundle 'matschaffer/vim-islime2'
 
+" Colors
+Bundle 'tpope/vim-vividchalk'
+Bundle 'scottymoon/vim-twilight'
+Bundle 'ootoovak/vim-tomorrow-night'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'herald.vim'
+Bundle 'moria'
+Bundle '29decibel/codeschool-vim-theme'
+Bundle 'Lucius'
+Bundle 'Mustang2'
+Bundle 'cschlueter/vim-clouds'
+Bundle 'tomasr/molokai'
+
+" My own settings
 Bundle 'nicholaides/my.vim'
 
 filetype plugin indent on
