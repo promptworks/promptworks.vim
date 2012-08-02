@@ -55,6 +55,12 @@ Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'matschaffer/netrw-v142'
 Bundle 'matschaffer/vim-islime2'
 
+" SnipMate stuff
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "honza/snipmate-snippets"
+Bundle "garbas/vim-snipmate"
+
 " Colors
 Bundle 'tpope/vim-vividchalk'
 Bundle 'scottymoon/vim-twilight'

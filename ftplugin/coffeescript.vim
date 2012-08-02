@@ -7,4 +7,3 @@ let coffee_no_trailing_space_error = 1
 " into
 "  @set 'name', 'John'
 nnoremap <leader>es I@set<space>'<esc>ea',<esc>:s/<space>*=<cr>
-
