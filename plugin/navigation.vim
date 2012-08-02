@@ -2,21 +2,9 @@
 set foldenable
 set foldlevelstart=99
 
-" Search as you type
-set incsearch
-" highlight search results
-set hlsearch
-
 " More bash-like tab completion
 set wildmode=longest,list,full
 set wildmenu
-
-" Return cursor to start of edit after repeat
-nmap . .`[
-
-" Ignore case on search unless search has uppercase characters
-set ignorecase
-set smartcase
 
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/cache/*,*/*.jpg,*/*.png,*/*.pyc
 
@@ -33,6 +21,7 @@ let g:ctrlp_custom_ignore = '\.git$\|tmp$\|\.bundle$\|public/uploads$\|public/sy
 
 " Hit TAB twice to switch to the next window
 nnoremap <tab><tab> <C-w>w
+nnoremap <s-tab><s-tab> <C-w>W
 
 " Open the current file's directory in Finder
 nnoremap <leader>o :!open<space>%:p:h<enter>
