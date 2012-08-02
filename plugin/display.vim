@@ -15,4 +15,4 @@ set list
 highlight OverLength ctermbg=Magenta ctermfg=white guibg=#592929
 match OverLength /\%81v./
 
-colorscheme solarized
+colorscheme codeschool

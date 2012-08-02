@@ -1,2 +1,3 @@
-set guioptions=egmrt
-set guifont=Meslo\ LG\ M\ DZ:h12
+set guioptions=egm
+set guifont=Menlo:h14
+set antialias

@@ -8,6 +8,7 @@ filetype plugin indent on
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
 
-" Enable mouse support
-set ttymouse=xterm2
-set mouse=a
+set autoread                  " watch for file changes
+
+" prevent the directory-specific vimrc files from executing potentially dangerous commands
+set secure

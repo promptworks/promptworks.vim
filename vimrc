@@ -63,6 +63,6 @@ Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'matschaffer/netrw-v142'
 Bundle 'matschaffer/vim-islime2'
 
-Bundle 'nicholaides/.vim'
+Bundle 'nicholaides/my.vim'
 
 filetype plugin indent on

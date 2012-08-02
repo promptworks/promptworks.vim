@@ -1,8 +1,8 @@
 " Fast saving
 nmap <leader>w :w!<cr>
 
-" Spelling
-nmap <silent> <leader>s :set spell!<CR>
+" use . to repeat a change for every line in the block
+vnoremap <silent> . :normal .<CR>
 
 " Show syntax highlighting groups
 nmap <leader>p :call SynStack()<CR>

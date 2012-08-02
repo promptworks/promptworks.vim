@@ -4,6 +4,8 @@ set foldlevelstart=99
 
 " Search as you type
 set incsearch
+" highlight search results
+set hlsearch
 
 " More bash-like tab completion
 set wildmode=longest,list,full
@@ -25,3 +27,12 @@ inoremap <Esc><BS> <C-o>db
 
 " netrw tree mode
 let g:netrw_liststyle=3
+
+let g:ctrlp_dotfiles = 0
+let g:ctrlp_custom_ignore = '\.git$\|tmp$\|\.bundle$\|public/uploads$\|public/system$\|public\/topics$\|public/user_profiles\|\.sass-cache$'
+
+" Hit TAB twice to switch to the next window
+nnoremap <tab><tab> <C-w>w
+
+" Open the current file's directory in Finder
+nnoremap <leader>o :!open<space>%:p:h<enter>
