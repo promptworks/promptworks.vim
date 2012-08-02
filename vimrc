@@ -42,6 +42,7 @@ Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'kana/vim-textobj-user'
 Bundle 'scrooloose/nerdtree'
 Bundle 'hallettj/jslint.vim'
+Bundle 'Lokaltog/vim-powerline'
 
 " Colors
 Bundle 'tpope/vim-vividchalk'
