@@ -1,5 +1,5 @@
 " Git helpers
-nmap <leader>gc :call <SID>SourceTreeCommit()<CR>
+nnoremap <leader>gc :call <SID>SourceTreeCommit()<CR>
 
 " stree is not included in the AppStore version
 " of SourceTree, but you can download it from
@@ -14,4 +14,4 @@ endfunction
 
 " Git `pub` current project, see url for source:
 "   https://github.com/matschaffer/profile/blob/master/dotfiles/gitconfig
-nmap <leader>gp :!cd %:p:h && git pub<CR>
+nnoremap <leader>gp :!cd %:p:h && git pub<CR>

@@ -16,4 +16,4 @@ vnoremap < <gv
 vnoremap > >gv
 
 " Return cursor to start of edit after repeat
-nmap . .`[
+nnoremap . .`[
