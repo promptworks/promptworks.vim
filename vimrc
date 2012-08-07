@@ -75,6 +75,7 @@ Bundle 'Lucius'
 Bundle 'Mustang2'
 Bundle 'cschlueter/vim-clouds'
 Bundle 'tomasr/molokai'
+Bundle 'gregsexton/Muon'
 
 " My own settings
 Bundle 'nicholaides/my.vim'
