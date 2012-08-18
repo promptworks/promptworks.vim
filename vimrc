@@ -42,11 +42,11 @@ Bundle 'tpope/vim-repeat'
 Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'kana/vim-textobj-user'
 Bundle 'scrooloose/nerdtree'
-Bundle 'hallettj/jslint.vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'chrisbra/NrrwRgn'
 Bundle 'vim-scripts/PreciseJump'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'jshint.vim'
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
