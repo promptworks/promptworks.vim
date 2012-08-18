@@ -21,7 +21,6 @@ Bundle 'jpalardy/vim-slime'
 Bundle 'tpope/vim-surround'
 Bundle 'avakhov/vim-yaml'
 Bundle 'mileszs/ack.vim'
-
 Bundle 'vim-scripts/argtextobj.vim'
 Bundle 'vim-scripts/haskell.vim'
 Bundle 'juvenn/mustache.vim'
@@ -32,7 +31,6 @@ Bundle 'tsaleh/vim-align'
 Bundle 'tpope/vim-endwise'
 Bundle 'tobiassvn/vim-gemfile'
 Bundle 'nono/vim-handlebars'
-
 Bundle 'michaeljsmith/vim-indent-object'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'itspriddle/vim-jquery'
@@ -47,6 +45,7 @@ Bundle 'chrisbra/NrrwRgn'
 Bundle 'vim-scripts/PreciseJump'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'jshint.vim'
+Bundle 'gf3/peg.vim'
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
