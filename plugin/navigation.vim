@@ -8,11 +8,6 @@ set wildmenu
 
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/cache/*,*/*.jpg,*/*.png,*/*.pyc
 
-" Use alt+arrows & backspace assuming they're set up to work for bash
-inoremap <Esc>b <C-o>b
-inoremap <Esc>f <C-o>w
-inoremap <Esc><BS> <C-o>db
-
 " netrw tree mode
 let g:netrw_liststyle=3
 
