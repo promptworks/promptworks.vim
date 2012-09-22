@@ -46,6 +46,7 @@ Bundle 'vim-scripts/PreciseJump'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'jshint.vim'
 Bundle 'gf3/peg.vim'
+Bundle 'alunny/pegjs-vim'
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
