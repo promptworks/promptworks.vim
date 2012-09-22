@@ -77,6 +77,8 @@ Bundle 'Mustang2'
 Bundle 'cschlueter/vim-clouds'
 Bundle 'tomasr/molokai'
 Bundle 'gregsexton/Muon'
+Bundle 'summerfruit256.vim'
+Bundle 'pyte'
 
 " My own settings
 Bundle 'nicholaides/my.vim'
