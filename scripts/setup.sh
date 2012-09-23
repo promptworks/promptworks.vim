@@ -14,7 +14,7 @@ if ! [[ -d ~/.vim/bundle/vundle ]]; then
   git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 fi
 
-if ! [[ -d ~/.vim/bundle/vim-matschaffer ]]; then
+if ! [[ -d ~/.vim/bundle/my.vim ]]; then
   git clone ${PREFIX}nicholaides/my.vim.git ~/.vim/bundle/my.vim
 fi
 
