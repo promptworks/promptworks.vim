@@ -79,6 +79,7 @@ Bundle 'tomasr/molokai'
 Bundle 'gregsexton/Muon'
 Bundle 'summerfruit256.vim'
 Bundle 'pyte'
+Bundle 'jpo/vim-railscasts-theme'
 
 " My own settings
 Bundle 'nicholaides/my.vim'
