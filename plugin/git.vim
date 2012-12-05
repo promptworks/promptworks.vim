@@ -8,14 +8,6 @@ function! s:SourceTreeCommit()
   call system("cd " . expand("%:p:h") . " && stree `git rev-parse --show-toplevel`")
 endfunction
 
-function! s:GitXCommit()
-  call system("cd " . expand("%:p:h") . " && gitx -c")
-endfunction
-
-" Git `pub` current project, see url for source:
-"   https://github.com/matschaffer/profile/blob/master/dotfiles/gitconfig
-nnoremap <leader>gp :!cd %:p:h && git pub<CR>
-
 " Git commit messages have spellcheck and start in insert mode
 if has('autocmd')
   au BufNewFile,BufRead COMMIT_EDITMSG setlocal spell!
