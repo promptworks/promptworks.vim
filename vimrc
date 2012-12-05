@@ -49,6 +49,7 @@ Bundle 'alunny/pegjs-vim'
 Bundle 'switch.vim'
 Bundle 'tudorprodan/html_annoyance.vim'
 Bundle 'ZoomWin'
+Bundle 'ecomba/vim-ruby-refactoring'
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
