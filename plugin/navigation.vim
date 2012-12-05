@@ -19,4 +19,4 @@ nnoremap <tab><tab> <C-w>w
 nnoremap <s-tab><s-tab> <C-w>W
 
 " Open the current file's directory in Finder
-nnoremap <leader>o :!open<space>%:p:h<enter>
+nnoremap <leader>o :silent !open<space>%:p:h<enter>
