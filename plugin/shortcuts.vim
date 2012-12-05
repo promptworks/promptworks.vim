@@ -1,7 +1,7 @@
 " use . to repeat a change for every line in the block
 vnoremap <silent> . :normal .<CR>
 
-" remap jj to escape in insert mode
+" remap jk and kj to escape in insert mode
 inoremap jk <Esc>
 inoremap kj <Esc>
 
