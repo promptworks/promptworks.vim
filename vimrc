@@ -52,7 +52,6 @@ Bundle 'ZoomWin'
 Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'matchit.zip'
 Bundle 'speeddating.vim'
-Bundle 'kana/vim-smartinput'
 Bundle 'sjl/gundo.vim'
 
 "indent guides
