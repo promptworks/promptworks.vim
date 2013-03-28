@@ -69,7 +69,7 @@ Bundle "garbas/vim-snipmate"
 " Colors
 Bundle 'tpope/vim-vividchalk'
 Bundle 'scottymoon/vim-twilight'
-Bundle 'ootoovak/vim-tomorrow-night'
+Bundle 'd11wtq/tomorrow-theme-vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'herald.vim'
 Bundle 'moria'
