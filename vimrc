@@ -48,7 +48,6 @@ Bundle 'gf3/peg.vim'
 Bundle 'alunny/pegjs-vim'
 Bundle 'switch.vim'
 Bundle 'tudorprodan/html_annoyance.vim'
-Bundle 'ZoomWin'
 Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'matchit.zip'
 Bundle 'speeddating.vim'
@@ -60,9 +59,6 @@ let g:indent_guides_color_change_percent = 3
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 Bundle 'nathanaelkane/vim-indent-guides'
-
-Bundle 'matschaffer/netrw-v142'
-Bundle 'matschaffer/vim-islime2'
 
 " SnipMate stuff
 Bundle "MarcWeber/vim-addon-mw-utils"
