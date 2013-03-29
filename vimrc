@@ -52,6 +52,7 @@ Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'matchit.zip'
 Bundle 'speeddating.vim'
 Bundle 'sjl/gundo.vim'
+Bundle 'abolish.vim'
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
