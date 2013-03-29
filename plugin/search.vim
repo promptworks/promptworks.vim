@@ -21,3 +21,6 @@ vnoremap # :<C-u>call <SID>VSetSearch()<CR>??<CR><c-o>
 
 " Open a Quickfix window for the last search
 nnoremap <silent> ,/ :execute 'vimgrep /'.@/.'/g %'<CR>:copen<CR>
+
+" <leader>h to clear the search highlighting
+nnoremap <leader>h :noh<CR>
