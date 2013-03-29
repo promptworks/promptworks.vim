@@ -1,0 +1,1 @@
+command Stree :silent !stree
