@@ -85,6 +85,7 @@ Bundle 'summerfruit256.vim'
 Bundle 'pyte'
 Bundle 'jpo/vim-railscasts-theme'
 Bundle 'github-theme'
+Bundle 'Wombat'
 
 " My own settings
 Bundle 'nicholaides/my.vim'
