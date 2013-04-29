@@ -84,6 +84,7 @@ Bundle 'pyte'
 Bundle 'jpo/vim-railscasts-theme'
 Bundle 'github-theme'
 Bundle 'Wombat'
+Bundle 'jellybeans.vim'
 
 " My own settings
 Bundle 'nicholaides/my.vim'
