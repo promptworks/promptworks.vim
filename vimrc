@@ -52,6 +52,7 @@ Bundle 'speeddating.vim'
 Bundle 'sjl/gundo.vim'
 Bundle 'abolish.vim'
 Bundle 'timcharper/textile.vim'
+Bundle 'bogado/file-line'
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
