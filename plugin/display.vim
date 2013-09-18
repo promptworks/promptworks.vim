@@ -11,8 +11,6 @@ set ruler
 set listchars=tab:‣\ ,trail:\ ,extends:…,precedes:…,nbsp:˖
 set list
 
-" Mark the 81st column magenta
-highlight OverLength ctermbg=Magenta ctermfg=white guibg=#592929
-match OverLength /\%81v./
+set colorcolumn=80
 
 colorscheme codeschool
