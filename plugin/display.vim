@@ -13,4 +13,4 @@ set list
 
 set colorcolumn=80
 
-colorscheme codeschool
+colorscheme Tomorrow
