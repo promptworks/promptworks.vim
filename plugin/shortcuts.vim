@@ -11,6 +11,8 @@ noremap Y y$
 " Make K split lines (the opposite of J)
 nnoremap K i<cr><esc>k$
 
+" Make <leader>k split the line after the cursor
+nnoremap <leader>k a<cr><esc>k$
 
 " Insert new line above cursor
 nnoremap <C-K> O<Esc>j
