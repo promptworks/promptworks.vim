@@ -11,8 +11,7 @@ set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/cache/*,*/*.jpg,*/*.png,*/*.pyc
 " netrw tree mode
 let g:netrw_liststyle=3
 
-let g:ctrlp_dotfiles = 0
-let g:ctrlp_custom_ignore = '\.git$\|tmp$\|\.bundle$\|public/uploads$\|public/system$\|public\/topics$\|public/user_profiles\|\.sass-cache$'
+let g:ctrlp_custom_ignore = '\.git$\|tmp$\|\.bundle$\|public/uploads$\|public/system$\|public\/topics$\|public/user_profiles\|\.sass-cache$|node_modules$'
 
 " Hit TAB twice to switch to the next window
 nnoremap <tab><tab> <C-w>w
