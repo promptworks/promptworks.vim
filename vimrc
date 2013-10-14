@@ -52,6 +52,7 @@ Bundle 'speeddating.vim'
 Bundle 'sjl/gundo.vim'
 Bundle 'abolish.vim'
 Bundle 'timcharper/textile.vim'
+Bundle 'greplace.vim'
 Bundle 'bogado/file-line'
 
 "indent guides
