@@ -88,6 +88,9 @@ Bundle 'jpo/vim-railscasts-theme'
 Bundle 'github-theme'
 Bundle 'Wombat'
 Bundle 'jellybeans.vim'
+Bundle 'Pychimp/vim-sol'
+Bundle 'Pychimp/vim-luna'
+Bundle 'john2x/flatui.vim'
 
 " My own settings
 Bundle 'nicholaides/my.vim'
