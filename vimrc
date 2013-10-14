@@ -54,6 +54,7 @@ Bundle 'abolish.vim'
 Bundle 'timcharper/textile.vim'
 Bundle 'greplace.vim'
 Bundle 'xenoterracide/html.vim'
+Bundle 'danro/rename.vim'
 Bundle 'bogado/file-line'
 
 "indent guides
