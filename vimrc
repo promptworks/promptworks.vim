@@ -90,6 +90,7 @@ Bundle 'jellybeans.vim'
 Bundle 'Pychimp/vim-sol'
 Bundle 'Pychimp/vim-luna'
 Bundle 'john2x/flatui.vim'
+Bundle 'junegunn/seoul256.vim'
 
 " My own settings
 Bundle 'nicholaides/my.vim'
