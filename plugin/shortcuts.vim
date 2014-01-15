@@ -25,3 +25,6 @@ nnoremap <C-L> li <Esc>h
 
 " Insert space before cursor
 nnoremap <C-H> i <Esc>l
+
+" 'Q' runs the macro in the 'q' register, instead of opening ex mode.
+nnoremap Q @q
