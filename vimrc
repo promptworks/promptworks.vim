@@ -55,6 +55,7 @@ Bundle 'timcharper/textile.vim'
 Bundle 'xenoterracide/html.vim'
 Bundle 'danro/rename.vim'
 Bundle 'bogado/file-line'
+Bundle 'dockyard/vim-easydir'
 Bundle 'kien/rainbow_parentheses.vim'
 
 "indent guides
