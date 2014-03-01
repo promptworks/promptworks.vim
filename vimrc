@@ -59,6 +59,7 @@ Bundle 'dockyard/vim-easydir'
 Bundle 'nicholaides/words-to-avoid.vim'
 Bundle 'jgdavey/vim-blockle'
 Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'rking/ag.vim'
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
