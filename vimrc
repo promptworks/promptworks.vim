@@ -98,5 +98,3 @@ Bundle 'junegunn/seoul256.vim'
 
 " My own settings
 Bundle 'nicholaides/my.vim'
-
-filetype plugin indent on
