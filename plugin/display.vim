@@ -1,5 +1,6 @@
 syntax on
 set relativenumber
+set number
 
 " Show normal-mode commands as you type
 set showcmd
