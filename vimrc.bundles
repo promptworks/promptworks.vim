@@ -1,0 +1,107 @@
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#begin()
+
+" Let Vundle manage Vundle
+Plugin 'gmarik/vundle'
+
+" Define bundles via Github repos
+Plugin 'vim-scripts/pbcopy.vim'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'tpope/vim-markdown'
+Plugin 'slim-template/vim-slim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-fugitive'
+Plugin 'jiangmiao/simple-javascript-indenter'
+Plugin 'tpope/vim-surround'
+Plugin 'avakhov/vim-yaml'
+Plugin 'mileszs/ack.vim'
+Plugin 'vim-scripts/argtextobj.vim'
+Plugin 'vim-scripts/haskell.vim'
+Plugin 'juvenn/mustache.vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'godlygeek/tabular'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'Align'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-bundler'
+Plugin 'nono/vim-handlebars'
+Plugin 'michaeljsmith/vim-indent-object'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'itspriddle/vim-jquery'
+Plugin 'leshill/vim-json'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-repeat'
+Plugin 'nelstrom/vim-textobj-rubyblock'
+Plugin 'kana/vim-textobj-user'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'jshint.vim'
+Plugin 'gf3/peg.vim'
+Plugin 'alunny/pegjs-vim'
+Plugin 'switch.vim'
+Plugin 'tudorprodan/html_annoyance.vim'
+Plugin 'ecomba/vim-ruby-refactoring'
+Plugin 'matchit.zip'
+Plugin 'speeddating.vim'
+Plugin 'sjl/gundo.vim'
+Plugin 'abolish.vim'
+Plugin 'timcharper/textile.vim'
+Plugin 'xenoterracide/html.vim'
+Plugin 'danro/rename.vim'
+Plugin 'bogado/file-line'
+Plugin 'dockyard/vim-easydir'
+Plugin 'nicholaides/words-to-avoid.vim'
+Plugin 'jgdavey/vim-blockle'
+Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'rking/ag.vim'
+
+"indent guides
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_color_change_percent = 3
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 1
+Plugin 'nathanaelkane/vim-indent-guides'
+
+" SnipMate stuff
+Plugin "MarcWeber/vim-addon-mw-utils"
+Plugin "tomtom/tlib_vim"
+Plugin "honza/vim-snippets"
+Plugin "garbas/vim-snipmate"
+
+" Colors
+Plugin 'tpope/vim-vividchalk'
+Plugin 'scottymoon/vim-twilight'
+Plugin 'd11wtq/tomorrow-theme-vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'moria'
+Plugin '29decibel/codeschool-vim-theme'
+Plugin 'Lucius'
+Plugin 'Mustang2'
+Plugin 'cschlueter/vim-clouds'
+Plugin 'tomasr/molokai'
+Plugin 'gregsexton/Muon'
+Plugin 'summerfruit256.vim'
+Plugin 'pyte'
+Plugin 'jpo/vim-railscasts-theme'
+Plugin 'github-theme'
+Plugin 'Wombat'
+Plugin 'jellybeans.vim'
+Plugin 'Pychimp/vim-sol'
+Plugin 'Pychimp/vim-luna'
+Plugin 'john2x/flatui.vim'
+Plugin 'junegunn/seoul256.vim'
+
+" Our own settings
+Plugin 'promptworks/promptworks.vim'
+
+if filereadable(expand("~/.vimrc.bundles.local"))
+  source ~/.vimrc.bundles.local
+endif
+
+" All of your Plugins must be added before the following line
+call vundle#end()
+filetype plugin indent on

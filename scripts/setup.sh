@@ -19,7 +19,9 @@ if ! [[ -d ~/.vim/bundle/promptworks.vim ]]; then
 fi
 
 test -f ~/.vimrc && mv ~/.vimrc ~/.vimrc.bak
-
 ln -s ~/.vim/bundle/promptworks.vim/vimrc ~/.vimrc
 
-vi +BundleInstall +qall
+test -f ~/.vimrc.bundles && mv ~/.vimrc.bundles ~/.vimrc.bundles.bak
+ln -s ~/.vim/bundle/promptworks.vim/vimrc.bundles ~/.vimrc.bundles
+
+vim -u $HOME/.vimrc.bundles +PluginInstall +qall
