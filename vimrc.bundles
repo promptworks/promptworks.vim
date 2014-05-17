@@ -67,10 +67,10 @@ let g:indent_guides_guide_size = 1
 Plugin 'nathanaelkane/vim-indent-guides'
 
 " SnipMate stuff
-Plugin "MarcWeber/vim-addon-mw-utils"
-Plugin "tomtom/tlib_vim"
-Plugin "honza/vim-snippets"
-Plugin "garbas/vim-snipmate"
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'honza/vim-snippets'
+Plugin 'garbas/vim-snipmate'
 
 " Colors
 Plugin 'tpope/vim-vividchalk'
