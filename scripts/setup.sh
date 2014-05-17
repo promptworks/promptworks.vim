@@ -18,10 +18,10 @@ if ! [[ -d ~/.vim/bundle/promptworks.vim ]]; then
   git clone ${PREFIX}promptworks/promptworks.vim.git ~/.vim/bundle/promptworks.vim
 fi
 
-test -f ~/.vimrc && mv ~/.vimrc ~/.vimrc.bak
+[[ -f ~/.vimrc && (! -L ~/.vimrc) ]] && mv ~/.vimrc ~/.vimrc.bak
 ln -sF ~/.vim/bundle/promptworks.vim/vimrc ~/.vimrc
 
-test -f ~/.vimrc.bundles && mv ~/.vimrc.bundles ~/.vimrc.bundles.bak
+[[ -f ~/.vimrc && (! -L ~/.vimrc) ]] && mv ~/.vimrc.bundles ~/.vimrc.bundles.bak
 ln -sF ~/.vim/bundle/promptworks.vim/vimrc.bundles ~/.vimrc.bundles
 
 vim -u $HOME/.vimrc.bundles +PluginInstall +qall
