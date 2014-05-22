@@ -95,6 +95,7 @@ Plugin 'Pychimp/vim-sol'
 Plugin 'Pychimp/vim-luna'
 Plugin 'john2x/flatui.vim'
 Plugin 'junegunn/seoul256.vim'
+Plugin 'w0ng/vim-hybrid'
 
 " Our own settings
 Plugin 'promptworks/promptworks.vim'
