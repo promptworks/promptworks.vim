@@ -1,5 +1,3 @@
-" TODO: Move all mappings after the sets
-
 """"""""""""""""""""""""
 """ *** SETTINGS *** """
 """"""""""""""""""""""""
