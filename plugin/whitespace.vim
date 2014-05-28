@@ -1,6 +1,3 @@
-" convert all tabs to spaces
-nnoremap <leader>t<space> :%s/\t/  /g<CR>
-
 function! <SID>StripTrailingWhitespaces()
     " Preparation: save last search, and cursor position.
     let _s=@/
