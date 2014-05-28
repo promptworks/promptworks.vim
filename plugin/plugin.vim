@@ -4,30 +4,17 @@
 
 set nocompatible
 
-" Load file-type specific plugins and indent definitions
-filetype plugin indent on
-syntax on
-
 " Put temp files in common directory
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
-
-" watch for file changes
-set autoread
 
 " prevent the directory-specific vimrc files from executing potentially dangerous commands
 set secure
 
 " More bash-like tab completion
 set wildmode=longest,list,full
-set wildmenu
-
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/tmp/cache/*,*/*.jpg,*/*.png,*/*.pyc
 
-" Backspace over anything
-set backspace=indent,eol,start
-
-set autoindent
 set smartindent
 
 " Fold by syntax, start full open
@@ -44,7 +31,6 @@ set softtabstop=2
 set shiftwidth=2
 set tabstop=2
 set expandtab
-set smarttab
 
 """"""""""""""""
 """ Spelling """
@@ -59,8 +45,6 @@ set nospell
 """ Search """
 """"""""""""""
 
-" Search as you type
-set incsearch
 " highlight search results
 set hlsearch
 
@@ -76,12 +60,6 @@ set smartcase
 " Use relative line numbers, but show the absolute number on the current line
 set relativenumber
 set number
-
-" Show normal-mode commands as you type
-set showcmd
-
-" Show cursor and file position
-set ruler
 
 " Show whitespace as unicode chars
 set listchars=tab:‣\ ,trail:\ ,extends:…,precedes:…,nbsp:˖

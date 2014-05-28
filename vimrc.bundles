@@ -7,6 +7,7 @@ call vundle#begin()
 Plugin 'gmarik/vundle'
 
 " Define bundles via Github repos
+Plugin 'sensible.vim'
 Plugin 'vim-scripts/pbcopy.vim'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'tpope/vim-markdown'
