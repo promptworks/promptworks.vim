@@ -67,6 +67,9 @@ set list
 
 set colorcolumn=80
 
+" speed up macros and repeated commands
+set lazyredraw
+
 
 """""""""""
 """ GUI """
