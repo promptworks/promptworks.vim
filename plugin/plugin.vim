@@ -277,8 +277,8 @@ nnoremap <leader>- :Switch<CR>
 
 if exists(":Tabularize")
   " align =
-  nnoremap <Leader>a= :Tabularize /=<CR>
-  vnoremap <Leader>a= :Tabularize /=<CR>
+  nnoremap <Leader>a= :Tabularize /^[^=]*\zs=/l1<CR>
+  vnoremap <Leader>a= :Tabularize /^[^=]*\zs=/l1<CR>
 
   " align : but without a space before them
   nnoremap <Leader>a: :Tabularize /:\zs/l0r1<CR>
