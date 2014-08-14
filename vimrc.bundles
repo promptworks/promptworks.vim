@@ -64,6 +64,7 @@ Plugin 'jgdavey/vim-blockle'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'rking/ag.vim'
 Plugin 'henrik/vim-reveal-in-finder'
+Plugin 'justincampbell/vim-eighties'
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
