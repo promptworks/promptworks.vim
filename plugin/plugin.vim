@@ -281,8 +281,8 @@ if exists(":Tabularize")
   vnoremap <Leader>a= :Tabularize /^[^=]*\zs=/l1<CR>
 
   " align : but without a space before them
-  nnoremap <Leader>a: :Tabularize /:\zs/l0r1<CR>
-  vnoremap <Leader>a: :Tabularize /:\zs/l0r1<CR>
+  nnoremap <Leader>a: :Tabularize/\(:.*\)\@<!:\zs /l0<CR>
+  vnoremap <Leader>a: :Tabularize/\(:.*\)\@<!:\zs /l0<CR>
 
   " align {
   nnoremap <Leader>a{ :Tabularize /^[^{]*\zs{/l1<CR>
