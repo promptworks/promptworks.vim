@@ -216,6 +216,14 @@ endif
 let g:ctrlp_custom_ignore = '\.git$\|tmp$\|\.bundle$\|public/uploads$\|public/system$\|public\/topics$\|public/user_profiles\|\.sass-cache$|node_modules$'
 
 
+" Use The SilverSearcher to find files. It means we no longer need to cache.
+let g:ag_binary = system("which ag | xargs echo -n")
+if filereadable(g:ag_binary)
+  let g:ctrlp_user_command = g:ag_binary . ' %s -l --nocolor -g ""'
+endif
+
+let g:ctrlp_use_caching = 0
+
 """"""""""""""""""
 """ Reveal.vim """
 """"""""""""""""""
