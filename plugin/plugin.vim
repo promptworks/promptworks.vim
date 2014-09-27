@@ -70,17 +70,6 @@ set colorcolumn=80
 " speed up macros and repeated commands
 set lazyredraw
 
-
-"""""""""""
-""" GUI """
-"""""""""""
-
-set guioptions=egm
-set guifont=Menlo:h14
-set antialias
-colorscheme Tomorrow
-
-
 if has("mouse")
   set mouse=a
   set mousehide
