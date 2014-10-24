@@ -2,10 +2,6 @@
 " possible, as it has side effects.
 set nocompatible
 
-"""""""""""
-""" GUI """
-"""""""""""
-
 if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
 endif
