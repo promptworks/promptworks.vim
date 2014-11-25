@@ -24,4 +24,4 @@ ln -sF ~/.vim/bundle/promptworks.vim/vimrc ~/.vimrc
 [[ -f ~/.vimrc && (! -L ~/.vimrc) ]] && mv ~/.vimrc.bundles ~/.vimrc.bundles.bak
 ln -sF ~/.vim/bundle/promptworks.vim/vimrc.bundles ~/.vimrc.bundles
 
-vim -u $HOME/.vimrc.bundles +PluginInstall +qall
+vim -u $HOME/.vimrc.bundles +PluginUpdate +qall
