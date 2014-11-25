@@ -80,7 +80,6 @@ Plugin 'honza/vim-snippets'
 Plugin 'garbas/vim-snipmate'
 
 " Colors
-Plugin 'd11wtq/tomorrow-theme-vim'
 Plugin 'altercation/vim-colors-solarized'
 
 " Our own settings

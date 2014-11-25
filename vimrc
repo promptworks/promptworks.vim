@@ -10,7 +10,6 @@ filetype plugin indent on
 set guioptions=egm
 set guifont=Menlo:h14
 set antialias
-colorscheme Tomorrow
 
 " Local config
 if filereadable(expand("~/.vimrc.local"))
