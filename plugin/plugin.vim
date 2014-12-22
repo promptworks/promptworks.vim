@@ -240,6 +240,8 @@ vnoremap # :<C-u>call <SID>VSetSearch()<CR>??<CR><c-o>
 """ NERDTree """
 """"""""""""""""
 
+let NERDTreeIgnore = ['\.pyc$', '^__pycache__$']
+
 nnoremap <leader>f :NERDTreeFind<enter>
 nnoremap <leader>n :NERDTreeToggle<enter>
 
