@@ -82,9 +82,6 @@ Plugin 'garbas/vim-snipmate'
 " Colors
 Plugin 'altercation/vim-colors-solarized'
 
-" Our own settings
-Plugin 'promptworks/promptworks.vim'
-
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif
