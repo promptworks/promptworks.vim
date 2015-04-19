@@ -13,5 +13,5 @@
     ALSO NOTE: This assumes your default Vim is available from the `vim` command. If this is not the case, run `:BundleInstall` inside vim after installing.
 
     ```sh
-    bash < <(curl -Ls https://github.com/promptworks/promptworks.vim/raw/master/scripts/setup.sh)
+    bash < <(curl -Ls https://github.com/promptworks/promptworks.vim/raw/master/setup.sh)
     ```
