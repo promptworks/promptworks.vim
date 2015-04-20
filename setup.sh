@@ -29,11 +29,5 @@ set -e
 # Link our vimrc to ~/.vimrc
 ln -sF ~/.vim/vimrc ~/.vimrc
 
-# Install vundle plugin
-if [[ ! -d ~/.vim/bundle/vundle ]]
-then
-  git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-fi
-
 # Install/Update all other plugins using Vundle
-vim -u $HOME/.vim/vimrc.bundles +PluginUpdate +qall
+vim -u $HOME/.vim/vimrc.bundles +PlugInstall +qall
