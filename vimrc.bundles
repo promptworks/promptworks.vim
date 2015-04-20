@@ -45,7 +45,7 @@ Plug 'tpope/vim-endwise'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'tpope/vim-repeat'
 Plug 'kana/vim-textobj-user'
-Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 Plug 'bling/vim-airline'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'speeddating.vim'
