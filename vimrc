@@ -77,10 +77,6 @@ set list
 
 set colorcolumn=80
 
- " Should be overridden but not removed.
- " https://github.com/promptworks/promptworks.vim/issues/7
-colorscheme default
-
 " speed up macros and repeated commands
 set lazyredraw
 

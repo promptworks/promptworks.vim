@@ -1,91 +1,88 @@
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#begin()
+call plug#begin('~/.vim/plugged')
 
 " Let Vundle manage Vundle
-Plugin 'gmarik/vundle'
+Plug 'gmarik/vundle'
 
 " Define bundles via Github repos
-Plugin 'sensible.vim'
-Plugin 'vim-scripts/pbcopy.vim'
+Plug 'sensible.vim'
+Plug 'vim-scripts/pbcopy.vim'
 
 " Languages
 "   Ruby
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-bundler'
-Plugin 'ecomba/vim-ruby-refactoring'
-Plugin 'nelstrom/vim-textobj-rubyblock'
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-bundler'
+Plug 'ecomba/vim-ruby-refactoring'
+Plug 'nelstrom/vim-textobj-rubyblock'
 "   JavaScript
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'jiangmiao/simple-javascript-indenter'
-Plugin 'leshill/vim-json'
-Plugin 'itspriddle/vim-jquery'
+Plug 'kchmck/vim-coffee-script'
+Plug 'jiangmiao/simple-javascript-indenter'
+Plug 'leshill/vim-json'
+Plug 'itspriddle/vim-jquery'
 "   HTML
-Plugin 'xenoterracide/html.vim'
-Plugin 'tudorprodan/html_annoyance.vim'
+Plug 'xenoterracide/html.vim'
+Plug 'tudorprodan/html_annoyance.vim'
 "   Other
-Plugin 'slim-template/vim-slim'
-Plugin 'tpope/vim-markdown'
-Plugin 'avakhov/vim-yaml'
-Plugin 'juvenn/mustache.vim'
-Plugin 'nono/vim-handlebars'
-Plugin 'digitaltoad/vim-jade'
-Plugin 'jshint.vim'
-Plugin 'timcharper/textile.vim'
+Plug 'slim-template/vim-slim'
+Plug 'tpope/vim-markdown'
+Plug 'avakhov/vim-yaml'
+Plug 'juvenn/mustache.vim'
+Plug 'nono/vim-handlebars'
+Plug 'digitaltoad/vim-jade'
+Plug 'jshint.vim'
+Plug 'timcharper/textile.vim'
 
 
-Plugin 'kien/ctrlp.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-surround'
-Plugin 'vim-scripts/argtextobj.vim'
-Plugin 'scrooloose/syntastic'
-Plugin 'godlygeek/tabular'
-Plugin 'Align'
-Plugin 'tomtom/tcomment_vim'
-Plugin 'tpope/vim-endwise'
-Plugin 'michaeljsmith/vim-indent-object'
-Plugin 'tpope/vim-repeat'
-Plugin 'kana/vim-textobj-user'
-Plugin 'scrooloose/nerdtree'
-Plugin 'bling/vim-airline'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'speeddating.vim'
-Plugin 'switch.vim'
-Plugin 'matchit.zip'
-Plugin 'sjl/gundo.vim'
-Plugin 'abolish.vim'
-Plugin 'danro/rename.vim'
-Plugin 'bogado/file-line'
-Plugin 'dockyard/vim-easydir'
-Plugin 'nicholaides/words-to-avoid.vim'
-Plugin 'jgdavey/vim-blockle'
-Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'rking/ag.vim'
-Plugin 'henrik/vim-reveal-in-finder'
-Plugin 'justincampbell/vim-eighties'
+Plug 'kien/ctrlp.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'vim-scripts/argtextobj.vim'
+Plug 'scrooloose/syntastic'
+Plug 'godlygeek/tabular'
+Plug 'Align'
+Plug 'tomtom/tcomment_vim'
+Plug 'tpope/vim-endwise'
+Plug 'michaeljsmith/vim-indent-object'
+Plug 'tpope/vim-repeat'
+Plug 'kana/vim-textobj-user'
+Plug 'scrooloose/nerdtree'
+Plug 'bling/vim-airline'
+Plug 'Lokaltog/vim-easymotion'
+Plug 'speeddating.vim'
+Plug 'switch.vim'
+Plug 'matchit.zip'
+Plug 'sjl/gundo.vim'
+Plug 'abolish.vim'
+Plug 'danro/rename.vim'
+Plug 'bogado/file-line'
+Plug 'dockyard/vim-easydir'
+Plug 'nicholaides/words-to-avoid.vim'
+Plug 'jgdavey/vim-blockle'
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'rking/ag.vim'
+Plug 'henrik/vim-reveal-in-finder'
+Plug 'justincampbell/vim-eighties'
 
 "indent guides
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_color_change_percent  = 3
 let g:indent_guides_start_level           = 2
 let g:indent_guides_guide_size            = 1
-Plugin 'nathanaelkane/vim-indent-guides'
+colorscheme default
+Plug 'nathanaelkane/vim-indent-guides'
 
 " SnipMate and dependencies
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'honza/vim-snippets'
-Plugin 'garbas/vim-snipmate'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'honza/vim-snippets'
+Plug 'garbas/vim-snipmate'
 
 " Colors
-Plugin 'altercation/vim-colors-solarized'
+Plug 'altercation/vim-colors-solarized'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif
 
-" All of your Plugins must be added before the following line
-call vundle#end()
-filetype plugin indent on
+" All of your Plugs must be added before the following line
+call plug#end()

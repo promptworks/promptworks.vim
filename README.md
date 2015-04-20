@@ -15,3 +15,10 @@
     ```sh
     bash < <(curl -Ls https://github.com/promptworks/promptworks.vim/raw/master/setup.sh)
     ```
+
+## Development
+
+To update vim-plug:
+
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
