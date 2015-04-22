@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 this_repo=https://github.com/promptworks/promptworks.vim.git
 
@@ -19,8 +19,6 @@ else
   # Clone PromptWorks vim config to be the .vim directory
   git clone $this_repo ~/.vim
 fi
-
-set -e
 
 
 # Backup .vimrc unless it's a symlink
