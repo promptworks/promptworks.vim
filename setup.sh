@@ -14,6 +14,7 @@ then
     (cd ~/.vim && git pull)
   else
     mv ~/.vim ~/.vim.bak
+    git clone $this_repo ~/.vim
   fi
 else
   # Clone PromptWorks vim config to be the .vim directory
