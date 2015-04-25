@@ -47,8 +47,12 @@ set expandtab
 """"""""""""""""
 
 " Use english for spellchecking
-set spl=en spell
 set nospell
+
+" See https://github.com/neovim/neovim/issues/1551
+if !has('nvim')
+  set spl=en spell
+endif
 
 
 """"""""""""""
