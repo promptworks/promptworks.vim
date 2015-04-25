@@ -223,12 +223,18 @@ endif
 """ *** PLUGINS *** """
 """""""""""""""""""""""
 
+""""""""""""""""""""""""""""""""
+""" ag (the silver searcher) """
+""""""""""""""""""""""""""""""""
+
+let g:ag_prg='ag --vimgrep --hidden'
+
+
 """"""""""""""
 """ CTRL P """
 """"""""""""""
 
 let g:ctrlp_custom_ignore = '\.git$\|tmp$\|\.bundle$\|public/uploads$\|public/system$\|public\/topics$\|public/user_profiles\|\.sass-cache$|node_modules$'
-
 
 " Use The SilverSearcher to find files. It means we no longer need to cache.
 let g:ag_binary = system("which ag | xargs echo -n")
@@ -237,6 +243,7 @@ if filereadable(g:ag_binary)
 endif
 
 let g:ctrlp_use_caching = 0
+
 
 """"""""""""""""""
 """ Reveal.vim """
