@@ -329,3 +329,6 @@ endif
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
+
+" ensure vim always runs from a shell
+set shell=/bin/sh
