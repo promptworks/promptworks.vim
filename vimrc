@@ -98,10 +98,6 @@ let g:netrw_liststyle=3
 """ *** MAPPINGS *** """
 """"""""""""""""""""""""
 
-" remap jk and kj to escape in insert mode
-inoremap jk <Esc>
-inoremap kj <Esc>
-
 " Normally Y copies the whole row - not from cursor to EOL like other capitals. This makes it more consistent.
 noremap Y y$
 
