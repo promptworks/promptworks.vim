@@ -148,9 +148,6 @@ vnoremap > >gv
 " :W also saves
 cnoreabbrev W w
 
-" Force Saving Files that Require Root Permission
-cnoremap w!! %!sudo tee > /dev/null %
-
 " Maps more bash-like keys to command line mode (colon mode)
 cnoremap <C-A> <Home>
 cnoremap <C-F> <Right>
