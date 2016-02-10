@@ -93,6 +93,8 @@ endif
 " netrw tree mode
 let g:netrw_liststyle=3
 
+" Highlight markdown fenced code syntax
+let g:markdown_fenced_languages = ['bash=sh', 'javascript', 'perl', 'python', 'ruby']
 
 """"""""""""""""""""""""
 """ *** MAPPINGS *** """
