@@ -33,6 +33,7 @@ Plug 'nono/vim-handlebars'
 Plug 'digitaltoad/vim-jade'
 Plug 'jshint.vim'
 Plug 'timcharper/textile.vim'
+Plug 'lepture/vim-jinja'
 
 
 Plug 'kien/ctrlp.vim'
