@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-this_repo=https://github.com/promptworks/promptworks.vim.git
+this_repo=git@github.com:promptworks/promptworks.vim.git
 
 # Backup .vim directory
 
