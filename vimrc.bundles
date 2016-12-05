@@ -17,6 +17,8 @@ Plug 'tpope/vim-bundler'
 Plug 'ecomba/vim-ruby-refactoring'
 Plug 'nelstrom/vim-textobj-rubyblock'
 "   JavaScript
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 Plug 'kchmck/vim-coffee-script'
 Plug 'jiangmiao/simple-javascript-indenter'
 Plug 'leshill/vim-json'
