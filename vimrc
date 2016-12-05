@@ -335,6 +335,14 @@ if exists(":Tabularize")
   vnoremap <Leader>a, :Tabularize /,\zs/l0r1<CR>
 endif
 
+"""""""""""""""""""
+""" JS/JSON/JSX """
+"""""""""""""""""""
+
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files
+au FileType javascript setl sw=2 sts=2 et " Two spaces for JS
+au FileType json setl sw=2 sts=2 et " Two spaces for JSON
+
 
 """"""""""""""""""""
 """ Local config """
