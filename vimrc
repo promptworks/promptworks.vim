@@ -351,3 +351,6 @@ au FileType json setl sw=2 sts=2 et " Two spaces for JSON
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
+
+" ensure vim always runs from a shell
+set shell=/bin/sh
