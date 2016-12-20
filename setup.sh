@@ -1,6 +1,8 @@
 #!/bin/bash -e
 
-this_repo=git@github.com:promptworks/promptworks.vim.git
+# Must use HTTPS URL so that non-logged-in users can use this script.
+# If HTTPS isn't working for you, see https://help.github.com/articles/which-remote-url-should-i-use/
+this_repo=https://github.com/promptworks/promptworks.vim.git
 
 # Backup .vim directory
 
