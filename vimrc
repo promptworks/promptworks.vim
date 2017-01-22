@@ -169,13 +169,6 @@ set guifont=Menlo:h14
 set antialias
 
 
-""""""""""""""""""
-""" SourceTree """
-""""""""""""""""""
-
-command Stree :silent !stree
-
-
 """"""""""""""""""""""""
 """ *** COMMANDS *** """
 """"""""""""""""""""""""
