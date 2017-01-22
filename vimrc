@@ -150,8 +150,11 @@ vnoremap <silent> . :normal .<CR>
 vnoremap < <gv
 vnoremap > >gv
 
-" :W also saves
+" Alias
+"   :W ➡ :w
 cnoreabbrev W w
+"   :E ➡ :e
+cnoreabbrev E e
 
 " Maps more bash-like keys to command line mode (colon mode)
 cnoremap <C-A> <Home>
