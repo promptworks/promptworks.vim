@@ -87,7 +87,10 @@ set lazyredraw
 if has("mouse")
   set mouse=a
   set mousehide
-  set ttymouse=xterm2
+
+  if !has('nvim')
+    set ttymouse=xterm2
+  endif
 endif
 
 " netrw tree mode
@@ -166,7 +169,10 @@ cnoremap <M-BS> <C-w>
 
 set guioptions=egm
 set guifont=Menlo:h14
-set antialias
+
+if !has('nvim')
+  set antialias
+endif
 
 
 """"""""""""""""""
