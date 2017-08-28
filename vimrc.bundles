@@ -26,6 +26,8 @@ Plug 'itspriddle/vim-jquery'
 "   HTML
 Plug 'xenoterracide/html.vim'
 Plug 'tudorprodan/html_annoyance.vim'
+"   Elixir
+Plug 'elixir-lang/vim-elixir'
 "   Other
 Plug 'slim-template/vim-slim'
 Plug 'tpope/vim-markdown'
