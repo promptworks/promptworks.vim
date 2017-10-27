@@ -19,6 +19,7 @@ Plug 'kchmck/vim-coffee-script'
 Plug 'jiangmiao/simple-javascript-indenter'
 Plug 'leshill/vim-json'
 Plug 'itspriddle/vim-jquery'
+Plug 'leafgarland/typescript-vim'
 "   HTML
 Plug 'xenoterracide/html.vim'
 Plug 'tudorprodan/html_annoyance.vim'
