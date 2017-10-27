@@ -36,6 +36,7 @@ Plug 'digitaltoad/vim-jade'
 Plug 'jshint.vim'
 Plug 'timcharper/textile.vim'
 Plug 'lepture/vim-jinja'
+Plug 'elmcast/elm-vim'
 
 
 Plug 'kien/ctrlp.vim'
