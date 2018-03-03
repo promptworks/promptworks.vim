@@ -71,8 +71,7 @@ set smartcase
 """ Visuals """
 """""""""""""""
 
-" Use relative line numbers, but show the absolute number on the current line
-set relativenumber
+" Show line numbers
 set number
 
 " Show whitespace as unicode chars
