@@ -2,12 +2,8 @@ set nocompatible
 
 call plug#begin('~/.vim/plugged')
 
-" Let Vundle manage Vundle
-Plug 'gmarik/vundle'
-
-" Define bundles via Github repos
-Plug 'sensible.vim'
-Plug 'vim-scripts/pbcopy.vim'
+Plug 'tpope/vim-sensible'
+Plug 'bufordtaylor/pbcopy.vim'
 
 " Languages
 "   Ruby
@@ -35,7 +31,7 @@ Plug 'avakhov/vim-yaml'
 Plug 'juvenn/mustache.vim'
 Plug 'nono/vim-handlebars'
 Plug 'digitaltoad/vim-jade'
-Plug 'jshint.vim'
+Plug 'wookiehangover/jshint.vim'
 Plug 'timcharper/textile.vim'
 Plug 'lepture/vim-jinja'
 Plug 'elmcast/elm-vim'
@@ -44,10 +40,10 @@ Plug 'elmcast/elm-vim'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
-Plug 'vim-scripts/argtextobj.vim'
+Plug 'inkarkat/argtextobj.vim'
 Plug 'scrooloose/syntastic'
 Plug 'godlygeek/tabular'
-Plug 'Align'
+Plug 'vim-scripts/Align'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-endwise'
 Plug 'michaeljsmith/vim-indent-object'
@@ -56,11 +52,11 @@ Plug 'kana/vim-textobj-user'
 Plug 'scrooloose/nerdtree'
 Plug 'bling/vim-airline'
 Plug 'Lokaltog/vim-easymotion'
-Plug 'speeddating.vim'
-Plug 'switch.vim'
-Plug 'matchit.zip'
+Plug 'tpope/vim-speeddating'
+Plug 'AndrewRadev/switch.vim'
+Plug 'benjifisher/matchit.zip'
 Plug 'sjl/gundo.vim'
-Plug 'abolish.vim'
+Plug 'tpope/vim-abolish'
 Plug 'danro/rename.vim'
 Plug 'bogado/file-line'
 Plug 'dockyard/vim-easydir'
