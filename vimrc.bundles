@@ -6,36 +6,23 @@ Plug 'tpope/vim-sensible'
 Plug 'bufordtaylor/pbcopy.vim'
 
 " Languages
+"   Almost everything
+Plug 'sheerun/vim-polyglot'
 "   Ruby
-Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-bundler'
 Plug 'ecomba/vim-ruby-refactoring'
 Plug 'nelstrom/vim-textobj-rubyblock'
 "   JavaScript
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
-Plug 'kchmck/vim-coffee-script'
 Plug 'jiangmiao/simple-javascript-indenter'
-Plug 'leshill/vim-json'
 Plug 'itspriddle/vim-jquery'
-Plug 'leafgarland/typescript-vim'
 "   HTML
-Plug 'xenoterracide/html.vim'
 Plug 'tudorprodan/html_annoyance.vim'
-"   Elixir
-Plug 'elixir-lang/vim-elixir'
 "   Other
-Plug 'slim-template/vim-slim'
-Plug 'tpope/vim-markdown'
-Plug 'avakhov/vim-yaml'
 Plug 'juvenn/mustache.vim'
-Plug 'nono/vim-handlebars'
 Plug 'digitaltoad/vim-jade'
 Plug 'wookiehangover/jshint.vim'
-Plug 'timcharper/textile.vim'
 Plug 'lepture/vim-jinja'
-Plug 'elmcast/elm-vim'
 
 
 Plug 'kien/ctrlp.vim'
