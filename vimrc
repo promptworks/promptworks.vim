@@ -359,3 +359,41 @@ endif
 
 " ensure vim always runs from a shell
 set shell=/bin/sh
+
+
+""""""""""""""""""""""
+" Linting
+""""""""""""""""""""""
+
+let g:ale_sign_column_always = 1
+
+let g:ale_completion_enabled = 1
+let g:ale_completion_max_suggestions = 10
+let g:ale_completion_delay = 500
+
+let g:airline#extensions#ale#enabled = 1
+
+let g:ale_linters = {
+    \ 'javascript': ['eslint'],
+    \ 'ruby': ['ruby'],
+    \ 'typescript': ['prettier', 'tslint', 'tsserver'],
+    \ 'elixir': [],
+    \ 'python': ['flake8', 'black'],
+    \}
+
+let g:ale_fixers = {
+    \ 'javascript': ['prettier', 'eslint'],
+    \ 'ruby': ['rubocop'],
+    \ 'typescript': ['prettier', 'tslint'],
+    \ 'elixir': ['mix_format'],
+    \ 'python': ['black'],
+    \}
+
+let g:ale_sign_error = '▶'
+let g:ale_sign_warning = '●'
+
+highlight ALEErrorSign   guibg=NONE guifg=red ctermbg=NONE ctermfg=red
+highlight ALEWarningSign guibg=NONE guifg=yellow ctermbg=NONE ctermfg=yellow
+
+nnoremap <leader>af :ALEFix<CR>
+nnoremap <leader>aj :%!python -m json.tool<CR>
