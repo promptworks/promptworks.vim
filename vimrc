@@ -349,18 +349,6 @@ au FileType javascript setl sw=2 sts=2 et " Two spaces for JS
 au FileType json setl sw=2 sts=2 et " Two spaces for JSON
 
 
-""""""""""""""""""""
-""" Local config """
-""""""""""""""""""""
-
-if filereadable(expand("~/.vimrc.local"))
-  source ~/.vimrc.local
-endif
-
-" ensure vim always runs from a shell
-set shell=/bin/sh
-
-
 """"""""""""""""""""""
 " Linting
 """"""""""""""""""""""
@@ -397,3 +385,15 @@ highlight ALEWarningSign guibg=NONE guifg=yellow ctermbg=NONE ctermfg=yellow
 
 nnoremap <leader>af :ALEFix<CR>
 nnoremap <leader>aj :%!python -m json.tool<CR>
+
+
+""""""""""""""""""""
+""" Local config """
+""""""""""""""""""""
+
+if filereadable(expand("~/.vimrc.local"))
+  source ~/.vimrc.local
+endif
+
+" ensure vim always runs from a shell
+set shell=/bin/sh
