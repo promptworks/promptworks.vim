@@ -13,15 +13,11 @@ Plug 'tpope/vim-rails'
 Plug 'tpope/vim-bundler'
 Plug 'ecomba/vim-ruby-refactoring'
 Plug 'nelstrom/vim-textobj-rubyblock'
-"   JavaScript
-Plug 'jiangmiao/simple-javascript-indenter'
-Plug 'itspriddle/vim-jquery'
 "   HTML
 Plug 'tudorprodan/html_annoyance.vim'
 "   Other
 Plug 'juvenn/mustache.vim'
 Plug 'digitaltoad/vim-jade'
-Plug 'lepture/vim-jinja'
 
 
 Plug 'kien/ctrlp.vim'
