@@ -21,7 +21,6 @@ Plug 'tudorprodan/html_annoyance.vim'
 "   Other
 Plug 'juvenn/mustache.vim'
 Plug 'digitaltoad/vim-jade'
-Plug 'wookiehangover/jshint.vim'
 Plug 'lepture/vim-jinja'
 
 
