@@ -384,6 +384,8 @@ highlight ALEErrorSign   guibg=NONE guifg=red ctermbg=NONE ctermfg=red
 highlight ALEWarningSign guibg=NONE guifg=yellow ctermbg=NONE ctermfg=yellow
 
 nnoremap <leader>af :ALEFix<CR>
+nnoremap <leader>ad :ALEGoToDefinitionInVSplit<CR>
+nnoremap <leader>ar :ALEFindReferences -relative<CR>
 nnoremap <leader>aj :%!python -m json.tool<CR>
 
 
